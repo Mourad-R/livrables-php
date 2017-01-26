@@ -43,7 +43,11 @@ public function power()
 
     public function __construct()
   {
-   
+   		parent::__construct();
+
+   		   $this->mentalPower = 8;
+    	   $this->superPower = 10;
+    	   $this->level = 1;
   }
 
 };
@@ -63,7 +67,11 @@ public function power()
 
   public function __construct()
   {
-   
+      		parent::__construct();
+
+   		   $this->mentalPower = 8;
+    	   $this->superPower = 10;
+    	   $this->level = 1;
   }
 
 };
@@ -83,7 +91,11 @@ public function power()
 
   public function __construct()
   {
-   
+      		parent::__construct();
+
+   		   $this->mentalPower = 8;
+    	   $this->superPower = 10;
+    	   $this->level = 1;
   }
 
 };
